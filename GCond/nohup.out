@@ -1,0 +1,15 @@
+WARNING:root:The OGB package is out of date. Your version is 1.3.4, while the latest version is 1.3.5.
+usage: train_gcond_transduct.py [-h] [--gpu_id GPU_ID] [--dataset DATASET]
+                                [--dis_metric DIS_METRIC] [--epochs EPOCHS]
+                                [--nlayers NLAYERS] [--hidden HIDDEN]
+                                [--lr_adj LR_ADJ] [--lr_feat LR_FEAT]
+                                [--lr_model LR_MODEL]
+                                [--weight_decay WEIGHT_DECAY]
+                                [--dropout DROPOUT]
+                                [--normalize_features NORMALIZE_FEATURES]
+                                [--keep_ratio KEEP_RATIO]
+                                [--reduction_rate REDUCTION_RATE]
+                                [--seed SEED] [--alpha ALPHA] [--debug DEBUG]
+                                [--sgc SGC] [--inner INNER] [--outer OUTER]
+                                [--save SAVE] [--model MODEL]
+train_gcond_transduct.py: error: unrecognized arguments: gcond_arxiv_0.005_align+perturbation.out

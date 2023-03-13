@@ -1,0 +1,26 @@
+WARNING:root:The OGB package is out of date. Your version is 1.3.4, while the latest version is 1.3.5.
+Namespace(gpu_id=1, dataset='ogbn-products', dis_metric='ours', epochs=1000, nlayers=0, hidden=256, lr_adj=0.01, lr_feat=0.01, lr_model=0.01, weight_decay=0.0, dropout=0.5, normalize_features=True, keep_ratio=1.0, reduction_rate=0.05, seed=1, alpha=0, debug=0, sgc=1, inner=10, outer=20, save=1, model='GCN')
+pyg_data: Data(num_nodes=2449029, x=[2449029, 100], y=[2449029, 1], adj_t=[2449029, 2449029, nnz=123718280])
+split_index: {'train': tensor([     0,      1,      2,  ..., 196612, 196613, 196614]), 'valid': tensor([196615, 196616, 196617,  ..., 235935, 235936, 235937]), 'test': tensor([ 235938,  235939,  235940,  ..., 2449026, 2449027, 2449028])}
+train val test的长度: 196615 39323 2213091
+size of adj_train: (196615, 196615)
+edges in adj_train: 10903246.0
+/home/xzb/GCond/gcond_agent_transduct.py:37: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /opt/conda/conda-bld/pytorch_1656352660876/work/torch/csrc/utils/tensor_new.cpp:201.)
+  indices = torch.tensor([np.arange(n), np.arange(n)], dtype=torch.int64)
+adj_syn: (9826, 9826) feat_syn: torch.Size([9826, 100])
+开始图凝聚！
+epoch: 0
+Epoch 0, 梯度匹配loss_avg: 17.54319445021609
+Train set results: loss= 2.7470 accuracy= 0.3245
+Test set results: loss= 3.2062 accuracy= 0.2784
+epoch: 1
+epoch: 2
+epoch: 3
+epoch: 4
+epoch: 5
+epoch: 6
+epoch: 7
+epoch: 8
+epoch: 9
+epoch: 10
+epoch: 11
